@@ -95,7 +95,7 @@ def build_dataloader(dataset,
                      shuffle=True,
                      seed=None,
                      drop_last=False,
-                     pin_memory=True,
+                     pin_memory=False,
                      persistent_workers=True,
                      **kwargs):
     """Build PyTorch DataLoader.
